@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+
+    min-height: 100vh;
+    max-height: 100vh;
+    background: #D5E5F5;
+
+}
+
+main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+}
+
+.up, .down {
+
+    background: #FCFDFE;
+    width: 900px;
+    height: 150px;
+
+    margin-top: 30px;
+    border-radius: 15px;
+    
+    padding: 20px;
+    
+}
+
+.down {
+
+    height: 600px;
+    overflow: auto;
+
+}
+
+table {
+
+    width: 100%;
+    border-spacing: 10px;
+
+}
+
+th, td{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+}
+
+td {
+
+    font-weight: 400;
+}
+
+td:nth-child(4), td:nth-child(5), td:nth-child(6),
+th:nth-child(4), th:nth-child(5), th:nth-child(6) {
+
+
+    text-align: center;
+
+}
+
+.down h2{
+
+    margin-bottom: 20px;
+
+}
+
+.info {
+
+    width: 500px;
+    height: 400px;
+    background: #fff;
+    padding: 20px;
+
+}
+
+.info {
+
+    text-align: center;
+
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 74.8px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    display: none;
+
+}
+
+.show {
+
+    display: block !important;
+
+}
+
+.info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.info .block {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: auto;
+
+}
+
+.info .border {
+
+    margin-top: 30px;
+    border: 1px solid #415584;
+    border-radius: 10px;
+    height: 200px;
+    margin: 30px 50px;
+}
+
+.info button {
+
+    width: 90px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: auto;
+
+    background: transparent;
+    outline: none;
+    border: 1px solid #415584;
+    border-radius: 9999px;
+
+    font-weight: 600;
+
+}
+
+.up {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.up .box p {
+
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.up .box span {
+
+    font-size: 34px;
+    font-weight: 600;
+
+}

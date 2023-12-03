@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physic</title>
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<script src="/scripts/index.js" defer></script>
+<body>
+    
+    <main>
+        <div class="margin">
+            <div class="up">
+                <div class="box">
+                    <p>Czas Trwania</p>
+                    <span>29 Dni</span>
+                </div>
+                <div class="box">
+                    <p>Oszczędzone Kalorie</p>
+                    <span>11928 kcal</span>
+                </div>
+                <div class="box">
+                    <p>Zdrowsze produkty</p>
+                    <span>68 produktów</span>
+                </div>
+                <div class="box">
+                    <p>Zaoszczędzone Pieniądze</p>
+                    <span>945 zł</span>
+                </div>
+            </div>
+            <div class="down">
+                <h2>Tabela Żywności (Zamienniki)</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th width="5%">Dzień</th>
+                            <th width="20%">Niezdrowe Jedzenie</th>
+                            <th width="50%">Zdrowsze Zamienniki</th>
+                            <th width="10%">Kalorie</th>
+                            <th width="5%">Gramatura</th>
+                            <th width="10%">Data</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Czekolada mleczna</td>
+                            <td>20g truskawek, 30g migdałów, 50g jogurtu naturalnego</td>
+                            <td>530 kcal</td>
+                            <td>100g</td>
+                            <td>04.11.2023</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Chipsy ziemniaczane</td>
+                            <td>25g marchwi, 40g sera cheddar, 35g guacamole</td>
+                            <td>536 kcal</td>
+                            <td>100g</td>
+                            <td>04.11.2023</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Ciastka czekoladowe</td>
+                            <td>30g borówek, 40g migdałów, 30g jogurtu greckiego</td>
+                            <td>525 kcal</td>
+                            <td>100g</td>
+                            <td>06.11.2023</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Pizza pepperoni </td>
+                            <td>25g brokułów, 45g kurczaka grillowanego, 30g pomidorów</td>
+                            <td>520 kcal</td>
+                            <td>100g</td>
+                            <td>08.11.2023</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Hamburger </td>
+                            <td>110g sałaty, 50g indyka pieczonego, 30g ogórka</td>
+                            <td>520 kcal</td>
+                            <td>190g</td>
+                            <td>09.11.2023</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Lody waniliowe</td>
+                            <td>20g truskawek, 30g migdałów, 50g jogurtu naturalnego</td>
+                            <td>530 kcal</td>
+                            <td>100g</td>
+                            <td>09.11.2023</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Frytki </td>
+                            <td>25g marchwi, 40g sera cheddar, 35g guacamole</td>
+                            <td>542 kcal</td>
+                            <td>100g</td>
+                            <td>12.11.2023</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Pączek </td>
+                            <td>10g jagód, 50g jogurtu naturalnego, 30g płatków migdałowych</td>
+                            <td>320 kcal</td>
+                            <td>90g</td>
+                            <td>13.11.2023</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Nuggetsy</td>
+                            <td>30g sałaty lodowej, 40g pomidorów, 30g korniszonów</td>
+                            <td>520 kcal</td>
+                            <td>100g</td>
+                            <td>13.11.2023</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Nachosy z serem</td>
+                            <td>25g papryki czerwonej, 45g fasoli czarnej, 30g guacamole</td>
+                            <td>702 kcal</td>
+                            <td>100g</td>
+                            <td>16.11.2023</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>Żelki</td>
+                            <td>20g arbuz, 50g ananasa, 30g truskawek</td>
+                            <td>409 kcal</td>
+                            <td>100g</td>
+                            <td>16.11.2023</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Ciasto czekoladowe</td>
+                            <td>35g jogurtu greckiego, 40g orzechów włoskich, 25g jeżyn</td>
+                            <td>122 kcal</td>
+                            <td>100g</td>
+                            <td>17.11.2023</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>Smażona ryba</td>
+                            <td>20g sałaty rzymskiej, 50g pomidorów, 30g ogórka</td>
+                            <td>525 kcal</td>
+                            <td>100g</td>
+                            <td>18.11.2023</td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>Kurczak smażony </td>
+                            <td>30g brokułów, 40g marchwi, 30g papryki czerwonej</td>
+                            <td>489 kcal</td>
+                            <td>100g</td>
+                            <td>20.11.2023</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>Paluszki rybne</td>
+                            <td>25g sałaty masłowej, 45g pomidorów, 30g ogórka</td>
+                            <td>355 kcal</td>
+                            <td>190g</td>
+                            <td>22.11.2023</td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>Bułka z kiełbasą</td>
+                            <td>20g sałaty lodowej, 50g pomidorów, 30g ogórka</td>
+                            <td>680 kcal</td>
+                            <td>100g</td>
+                            <td>23.11.2023</td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>Lody czekoladowe</td>
+                            <td>30g malin, 40g płatków owsianych, 30g orzechów laskowych </td>
+                            <td>274 kcal</td>
+                            <td>100g</td>
+                            <td>27.11.2023</td>
+                        </tr>
+                        <tr>
+                            <td>18</td>
+                            <td>Tortilla z mięsem</td>
+                            <td>25g sałaty rzymskiej, 40g pomidorów, 25g ogórka</td>
+                            <td>400  kcal</td>
+                            <td>90g</td>
+                            <td>27.11.2023</td>
+                        </tr>
+                        <tr>
+                            <td>19</td>
+                            <td>Ciastka owsiane</td>
+                            <td>20g jagód, 50g jogurtu naturalnego, 30g płatków migdałowych</td>
+                            <td>390  kcal</td>
+                            <td>100g</td>
+                            <td>28.11.2023</td>
+                        </tr>
+                        <tr>
+                            <td>20</td>
+                            <td>Zupa krem z ziemniaków</td>
+                            <td>30g kalafiora, 40g kurczaka gotowaneg, 30g marchwi</td>
+                            <td>571 kcal</td>
+                            <td>100g</td>
+                            <td>29.11.2023</td>
+                        </tr>
+                        <tr>
+                            <td>21</td>
+                            <td>Zapiekanka z makaronu</td>
+                            <td>25g sałaty masłowej, 45g pomidorów, 30g ogórka</td>
+                            <td>511 kcal</td>
+                            <td>100g</td>
+                            <td>30.11.2023</td>
+                        </tr>
+                        <tr>
+                            <td>22</td>
+                            <td>Szarlotka </td>
+                            <td>25g jeżyn, 40g orzechów włoskich, 35g jogurtu greckiego</td>
+                            <td>525 kcal</td>
+                            <td>100g</td>
+                            <td>01.12.2023</td>
+                        </tr>
+                        <tr>
+                            <td>23</td>
+                            <td>Hot dog </td>
+                            <td>25g sałaty lodowej, 45g pomidorów, 30g ogórka</td>
+                            <td>540  kcal</td>
+                            <td>100g</td>
+                            <td>03.12.2023</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="info">
+                <h2>Informacje szczegółowe</h2>
+                <div class="content">
+                    <div class="block">
+                        <p id="unhealthy-food-name">Junk Food</p>
+                        <p id="unhealthy-food-weight">80g</p>
+                        <p id="unhealthy-food-calories">323 kcal</p>
+                    </div>
+                    <div class="border">
+                        <div class="block">
+                            <p id="healthy-food-name">Junk Food</p>
+                            <p id="healthy-food-weight">80g</p>
+                            <p id="healthy-food-calories">323 kcal</p>
+                        </div>
+                    </div>
+                </div>
+                <button onclick="hide()">Kontynuuj</button>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
