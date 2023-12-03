@@ -1,19 +1,19 @@
-function addListeners(){
+// function addListeners(){
 
-    let element = document.querySelectorAll('tbody tr');
+//     let element = document.querySelectorAll('tbody tr');
 
-    element.forEach(e => {
+//     element.forEach(e => {
 
-        e.addEventListener('click', t => {
-            document.querySelector('.info').classList.toggle('show');
-        })
+//         e.addEventListener('click', t => {
+//             document.querySelector('.info').classList.toggle('show');
+//         })
 
-    })
+//     })
     
-}
+// }
 
-function hide(){
+// function hide(){
 
-    document.querySelector('.info').classList.remove('show')
+//     document.querySelector('.info').classList.remove('show')
 
-}
+// }
